@@ -1,0 +1,51 @@
+[data-tip] {
+	position: relative; cursor: help;
+}
+[data-tip]::before {
+	border-width: 5px; border-style: solid; border-color: rgb(0, 194, 169) transparent transparent; border-image: none; left: 20px; top: -11px; width: 0px; height: 0px; line-height: 0; font-size: 0px; display: none; position: absolute; z-index: 8; content: "";
+}
+[data-tip]::after {
+	background: rgb(0, 194, 169); padding: 7px 15px; border-radius: 3px; left: -10px; top: -35px; height: auto; color: rgb(255, 255, 255); line-height: 10px; font-size: 13px; display: none; white-space: nowrap; position: absolute; z-index: 9; -ms-word-wrap: normal; content: attr(data-tip); -webkit-border-radius: 3px; -moz-border-radius: 3px;
+}
+[data-tip]:hover::before {
+	display: block;
+}
+[data-tip]:hover::after {
+	display: block;
+}
+.help {
+	color: rgb(0, 183, 216);
+}
+[data-tip].help::before {
+	border-color: rgb(0, 183, 216) transparent transparent;
+}
+[data-tip].help::after {
+	background: rgb(0, 183, 216); color: rgb(255, 255, 255);
+}
+.success {
+	color: rgb(81, 189, 106);
+}
+[data-tip].success::before {
+	border-color: rgb(81, 189, 106) transparent transparent;
+}
+[data-tip].success::after {
+	background: rgb(81, 189, 106); color: rgb(255, 255, 255);
+}
+[data-tip].tip-below::after {
+	left: 0px; top: 23px;
+}
+[data-tip].tip-below::before {
+	border-color: transparent transparent rgb(26, 26, 26); left: 10px; top: 13px;
+}
+[data-tip].tip-below.help::before {
+	border-color: transparent transparent rgb(0, 183, 216);
+}
+[data-tip].tip-below.success::before {
+	border-color: transparent transparent rgb(81, 189, 106);
+}
+[data-tip].tip-below.alert::before {
+	border-color: transparent transparent rgb(249, 202, 100);
+}
+[data-tip].tip-below.error::before {
+	border-color: transparent transparent rgb(225, 71, 62);
+}

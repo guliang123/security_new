@@ -1,0 +1,111 @@
+.navbar-inverse .navbar-toggle {
+	
+}
+.navbar-inverse .navbar-toggle:hover {
+	
+}
+.navbar-inverse .navbar-toggle:focus {
+	
+}
+.navbar-inverse {
+	border-width: 0px; padding: 5px 0px;
+}
+.navbar-brand {
+	padding: 22.5px 15px 22.5px 0px; height: auto; line-height: 40px; font-family: "Roboto"; font-size: 40px; font-weight: 400; margin-right: 50px;
+}
+.navbar-inverse .navbar-brand {
+	color: rgb(255, 255, 255);
+}
+.navbar > .container .navbar-brand {
+	margin-left: 0px;
+}
+.navbar-inverse {
+	padding: 0px; border: 0px currentColor; background-color: rgba(0, 0, 0, 0.6);
+}
+.navbar {
+	border-radius: 0px; margin-bottom: 0px; min-height: 100px;
+}
+.navbar-wrapper {
+	left: 0px; right: 0px; margin-top: 0px; position: absolute; z-index: 20;
+}
+.navbar .navbar-nav > .active > a {
+	color: rgb(255, 255, 255);
+}
+.navbar .navbar-nav > .active > a:hover {
+	color: rgb(255, 255, 255);
+}
+.navbar .navbar-nav > .active > a:focus {
+	color: rgb(255, 255, 255);
+}
+.navbar .navbar-nav > .open > a {
+	color: rgb(255, 255, 255);
+}
+.navbar .navbar-nav > .open > a:hover {
+	color: rgb(255, 255, 255);
+}
+.navbar .navbar-nav > .open > a:focus {
+	color: rgb(255, 255, 255);
+}
+.navbar .navbar-nav > li > a:hover {
+	color: rgb(255, 255, 255);
+}
+.navbar .navbar-nav > li > a:focus {
+	color: rgb(255, 255, 255);
+}
+.navbar .navbar-nav > li {
+	padding: 0px; margin-right: 0px;
+}
+.navbar .navbar-nav > li > a {
+	padding: 40px 19px; border-radius: 0px; color: rgb(255, 255, 255); line-height: 20px; font-family: "Roboto"; font-size: 16px; font-weight: 400;
+}
+.nav {
+	margin-top: 0px;
+}
+.navbar-collapse {
+	max-height: 100%;
+}
+.dropdown-menu {
+	padding: 0px; border-radius: 0px; border: 0px currentColor; border-image: none; min-width: 225px; background-color: rgba(0, 0, 0, 0.8);
+}
+.dropdown-menu > .active > a {
+	color: rgb(255, 255, 255);
+}
+.dropdown-menu > .active > a:hover {
+	color: rgb(255, 255, 255);
+}
+.dropdown-menu > .active > a:focus {
+	color: rgb(255, 255, 255);
+}
+.dropdown-menu > li > a {
+	padding: 15px 20px; transition:color 0.2s ease-in-out; color: rgb(255, 255, 255); line-height: 20px; font-family: "Roboto"; font-size: 15px; font-weight: 400;
+}
+.dropdown-menu > li > a:hover {
+	text-decoration: none; background-color: transparent;
+}
+.dropdown-menu > li > a:focus {
+	text-decoration: none; background-color: transparent;
+}
+.dropdown-submenu {
+	position: relative;
+}
+.dropdown-submenu > .dropdown-menu {
+	border-radius: 0px; left: 100% !important; top: 0px; margin-top: 0px; margin-left: 0px; -webkit-border-radius: 0px 0px 0px 0px; -moz-border-radius: 0px 0px 0px 0px;
+}
+.dropdown-submenu:hover > .dropdown-menu {
+	display: block;
+}
+.dropdown-submenu .pull-left {
+	float: none;
+}
+.dropdown-submenu.pull-left > .dropdown-menu {
+	border-radius: 0px; left: -100%; margin-left: 10px; -webkit-border-radius: 0px; -moz-border-radius: 0px;
+}
+.navbar-nav .open .dropdown-menu > li > a {
+	padding: 15px;
+}
+.navbar-nav .open .dropdown-menu .dropdown-header {
+	padding: 15px;
+}
+.navbar-right .dropdown-menu {
+	left: 0px; right: 0px;
+}
